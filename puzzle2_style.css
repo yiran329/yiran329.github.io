@@ -3,3 +3,7 @@ body{
 }
 
 #style1{text-align: center;}
+h1#style1{background-color: tomato}
+p#style1{background-color:Lavender;
+  font-weight: bold;
+}
