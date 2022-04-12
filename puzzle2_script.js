@@ -72,3 +72,23 @@ function help4(){
 function help5(){
   alert("注意这个形象在宫中是什么角色哦~");
 };
+
+function correctAnswer1(){
+  alert("野狼disco");
+}
+
+function correctAnswer2(){
+  alert("心有余悸");
+}
+
+function correctAnswer3(){
+  alert("孙红雷");
+}
+
+function correctAnswer4(){
+  alert("千变万化");
+}
+
+function correctAnswer5(){
+  alert("格格不入");
+};
