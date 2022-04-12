@@ -1,5 +1,4 @@
 var answers = ["野狼disco","心有余悸","孙红雷","千变万化","格格不入"]
-var helps = ["左手，龙；右手，彩虹","谐音，心中有鱼和鸡","谐音，笋和红色的炸弹","数字和谐音","注意这个形象在宫中是什么角色哦~"]
 
 function enterAnswer1(){
   var response = prompt("Please enter your answer :)");
@@ -10,6 +9,8 @@ function enterAnswer1(){
     alert("Sorry, you're wrong. Please think again.");
   }
 }
+
+
 
 function enterAnswer2(){
   var response = prompt("Please enter your answer :)");
@@ -49,20 +50,25 @@ function enterAnswer5(){
   else{
     alert("Sorry, you're wrong. Please think again.");
   }
-}
+};
+
 
 function help1(){
   alert("左手，龙；右手，彩虹");
 }
+
 function help2(){
   alert("谐音，心中有鱼和鸡");
 }
+
 function help3(){
   alert("谐音，笋和红色的炸弹");
 }
+
 function help4(){
   alert("数字和谐音");
+}
 
 function help5(){
   alert("注意这个形象在宫中是什么角色哦~");
-}
+};
