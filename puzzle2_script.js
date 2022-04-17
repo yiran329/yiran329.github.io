@@ -1,5 +1,6 @@
 function start(){
 document.getElementById('puzzleOne').style.display="block";
+document.getElementById('start').style.display="none";
 }
 
 var answers = ["野狼disco","心有余悸","孙红雷","千变万化","格格不入"]
@@ -12,6 +13,7 @@ function enterAnswer1(){
     alert("You're right!");
     score++
   document.getElementById('puzzleTwo').style.display="block";
+  document.getElementById('puzzleOne').style.display="none";
   }
   else{
     alert("Sorry, you're wrong. Please think again.");
@@ -26,6 +28,7 @@ function enterAnswer2(){
     alert("You're right!");
     score++
   document.getElementById('puzzleThree').style.display="block";
+  document.getElementById('puzzleTwo').style.display="none";
   }
   else{
     alert("Sorry, you're wrong. Please think again.");
@@ -38,6 +41,7 @@ function enterAnswer3(){
     alert("You're right!");
     score++
   document.getElementById('puzzleFour').style.display="block";
+  document.getElementById('puzzleThree').style.display="none";
   }
   else{
     alert("Sorry, you're wrong. Please think again.");
@@ -50,6 +54,7 @@ function enterAnswer4(){
     alert("You're right!");
     score++
   document.getElementById('puzzleFive').style.display="block";
+  document.getElementById('puzzleFour').style.display="none";
   }
   else{
     alert("Sorry, you're wrong. Please think again.");
@@ -110,4 +115,24 @@ function correctAnswer5(){
 
 function getScore(){
   alert("Your score is " + score +" !")
+}
+
+function pass1(){
+  document.getElementById('puzzleTwo').style.display="block";
+  document.getElementById('puzzleOne').style.display="none";
+}
+
+function pass2(){
+  document.getElementById('puzzleThree').style.display="block";
+  document.getElementById('puzzleTwo').style.display="none";
+}
+
+function pass3(){
+  document.getElementById('puzzleFour').style.display="block";
+  document.getElementById('puzzleThree').style.display="none";
+}
+
+function pass4(){
+  document.getElementById('puzzleFive').style.display="block";
+  document.getElementById('puzzleFour').style.display="none";
 }

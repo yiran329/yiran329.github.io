@@ -9,3 +9,14 @@ p#style1{background-color:Lavender;
 }
 
 #style2{text-align: center;}
+
+div.bt{
+  text-align: center;
+}
+
+div.bt button{
+  background: #white;
+  border-radius: 18px;
+  font-size: 15px;
+  color:deeppink;
+}

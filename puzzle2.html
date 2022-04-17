@@ -11,10 +11,13 @@
 <body background="puzzle2_background.jpg">
 
 <h1 id="style1">Here are lovely puzzles!</h1>
-<p id="style2">You can get your score at the bottom of this page.</p>
-<div style="text-align:center">
+<p id="style2">One point for correct answer and no point for skipping.</p>
+<p id="style2">You can get your score in the end.</p>
+<ul id="start" style="display:block">
+<div class="bt">
 <button onclick="start()">Start</button>
 </div>
+</ul>
 
 <ul id="puzzleOne" style="display:none">
 <p id="style1">Puzzle 1 : Guess a Chinese song from this picture.</p>
@@ -22,10 +25,11 @@
 <img src="puzzle1.jpg">
 </p>
 </br>
-<div style="text-align:center">
+<div class="bt">
 <button onclick="enterAnswer1()">Your answer</button>
 <button onclick="help1()">Help</button>
 <button onclick="correctAnswer1()">Correct answer</button>
+<button onclick="pass1()">It's boring.Next puzzle.</button>
 </div>
 </ul>
 
@@ -36,10 +40,11 @@
 <img src="puzzle2.jpg">
 </p>
 </br>
-<div style="text-align:center">
+<div class="bt">
 <button onclick="enterAnswer2()">Your answer</button>
 <button onclick="help2()">Help</button>
 <button onclick="correctAnswer2()">Correct answer</button>
+<button onclick="pass2()">It's boring.Next puzzle.</button>
 </div>
 </ul>
 
@@ -50,10 +55,11 @@
 <img src="puzzle3.jpg">
 </p>
 </br>
-<div style="text-align:center">
+<div class="bt">
 <button onclick="enterAnswer3()">Your answer</button>
 <button onclick="help3()">Help</button>
 <button onclick="correctAnswer3()">Correct answer</button>
+<button onclick="pass3()">It's boring.Next puzzle.</button>
 </div>
 </ul>
 
@@ -64,10 +70,11 @@
 <img src="puzzle4.jpg">
 </p>
 </br>
-<div style="text-align:center">
+<div class="bt">
 <button onclick="enterAnswer4()">Your answer</button>
 <button onclick="help4()">Help</button>
 <button onclick="correctAnswer4()">Correct answer</button>
+<button onclick="pass4()">It's boring.Next puzzle.</button>
 </div>
 </ul>
 
@@ -78,13 +85,13 @@
 <img src="puzzle5.jpg">
 </p>
 </br>
-<div style="text-align:center">
+<div class="bt">
 <button onclick="enterAnswer5()">Your answer</button>
 <button onclick="help5()">Help</button>
 <button onclick="correctAnswer5()">Correct answer</button>
 </div>
 </br>
-<div style="text-align:center">
+<div class="bt">
 <button onclick="getScore()">Finish</button>
 </div>
 </ul>

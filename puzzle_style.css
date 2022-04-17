@@ -3,3 +3,14 @@ h1#tst1 {color: deeppink;}
 
 #demo{text-align: center;}
 button{text-align: center;}
+
+div.bt{
+  text-align: center;
+}
+
+div.bt button{
+  background: #white;
+  border-radius: 18px;
+  font-size: 15px;
+  color:deeppink;
+}
