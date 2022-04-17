@@ -1,10 +1,18 @@
+function start(){
+document.getElementById('puzzleOne').style.display="block";
+}
+
 var answers = ["野狼disco","心有余悸","孙红雷","千变万化","格格不入"]
 var score = 0
+
+
 function enterAnswer1(){
+  for
   var response = prompt("Please enter your answer :)");
   if (response === answers[0]){
     alert("You're right!");
     score++
+  document.getElementById('puzzleTwo').style.display="block";
   }
   else{
     alert("Sorry, you're wrong. Please think again.");
@@ -18,6 +26,7 @@ function enterAnswer2(){
   if (response === answers[1]){
     alert("You're right!");
     score++
+  document.getElementById('puzzleThree').style.display="block";
   }
   else{
     alert("Sorry, you're wrong. Please think again.");
@@ -29,6 +38,7 @@ function enterAnswer3(){
   if (response === answers[2]){
     alert("You're right!");
     score++
+  document.getElementById('puzzleFour').style.display="block";
   }
   else{
     alert("Sorry, you're wrong. Please think again.");
@@ -40,6 +50,7 @@ function enterAnswer4(){
   if (response === answers[3]){
     alert("You're right!");
     score++
+  document.getElementById('puzzleFive').style.display="block";
   }
   else{
     alert("Sorry, you're wrong. Please think again.");
