@@ -7,7 +7,6 @@ var score = 0
 
 
 function enterAnswer1(){
-  for
   var response = prompt("Please enter your answer :)");
   if (response === answers[0]){
     alert("You're right!");
