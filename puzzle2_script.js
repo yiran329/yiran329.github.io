@@ -114,7 +114,7 @@ function correctAnswer5(){
 };
 
 function getScore(){
-  alert("Your score is " + score +" !")
+  alert("Your score is " + score +" , have a nice day ^v^")
 }
 
 function pass1(){
