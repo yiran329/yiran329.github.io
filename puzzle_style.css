@@ -1,5 +1,13 @@
-#tst1{text-align: center;}
-h1#tst1 {color: deeppink;}
+body {
+  text-align: center;
+  line-height: 2em;
+  font-family: Georgia, "Times New Roman",
+ Times, serif;
+    text-shadow: 4px 2px 8px #53727d;
+}
+
+h1#tst1 {color: deeppink;
+}
 
 #demo{text-align: center;}
 button{text-align: center;}

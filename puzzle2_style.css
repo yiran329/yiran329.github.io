@@ -1,14 +1,29 @@
 body{
-  background-color: pink
+  background-color: pink;
+  font-family: Georgia, "Times New Roman",
+ Times, serif;
 }
 
 #style1{text-align: center;}
-h1#style1{background-color: tomato}
+h1#style1{background-color: tomato;
+    text-shadow: 4px 2px 8px #53727d;
+}
 p#style1{background-color:Lavender;
   font-weight: bold;
 }
 
-#style2{text-align: center;}
+#style2{text-align: center;
+    text-shadow: 4px 2px 8px #53727d;
+}
+
+#style3{text-align: center;
+    font-size: 8px;
+    color:deeppink;
+  }
+
+div.music{
+  text-align: center;
+}
 
 div.bt{
   text-align: center;
