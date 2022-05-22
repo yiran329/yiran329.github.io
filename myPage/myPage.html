@@ -142,7 +142,7 @@
         <p class="card-text">贴心的鹦鹉资料百科，助力你在顷刻间了解属于你的它。</p>
         <p class="card-text"><small class="text-muted">鹦鹉有很多种，但在国内可以饲养的只有三种：虎皮鹦鹉、玄凤鹦鹉、牡丹鹦鹉。你是否想了解他们的喜好、习性、花色等共有的特征呢？“主子资料卡”里应有尽有。</small></p>
         <div class="d-grid gap-2 col-6 mx-auto">
-          <button class="btn btn-outline-warning" type="button">点击进入</button>
+          <button type="button" class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="看看鹦鹉们的资料">点击进入</button>
         </div>
       </div>
     </div>
@@ -158,7 +158,7 @@
         <p class="card-text"><small class="text-muted">从前，你是一个人，忙碌的生活使你抛下了生活的精致，每天随便打发自己便进入梦乡。现在，你有了鹦鹉主子，身上的担子愈发沉重：它吃什么、喝什么、用什么、玩什么、生病了怎么办……
           这些问题让你喘不过气。不过，有了“铲屎官课堂”，你再也不用担心自己养不好小鸟了！就让它替你分担这个甜蜜的负担吧~</small></p>
         <div class="d-grid gap-2 col-6 mx-auto">
-          <button class="btn btn-outline-warning" type="button">点击进入</button>
+          <button type="button" class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="读一读养鸟指南">点击进入</button>
         </div>
       </div>
     </div>
@@ -180,7 +180,7 @@
         <p class="card-text"><small class="text-muted">在养小鸟的过程中，有时，我们会想分享养小鸟的趣事；有时，我们遇到了万能的百度解决不了的问题；有时，我们期待一场属于小鸟，或是属于自己的邂逅。很幸运，以上这些，在“抱团取暖处”
           都能够实现。</small></p>
         <div class="d-grid gap-2 col-6 mx-auto">
-          <button type="button" class="btn btn-danger">点击进入</button>
+          <button type="button" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="bottom" title="进来聊聊吧">点击进入</button>
         </div>
       </div>
     </div>
@@ -215,40 +215,15 @@
   </div>
 </footer>
 
-
-
-
-<!--card group-->
-<!--<div class="card-group">
-  <div class="card">
-    <img src="img/card1.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">虎皮鹦鹉</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>-->
-
-
-
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-
+ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+ <script>
+  //初始化Tooltip工具提示框
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+   return new bootstrap.Tooltip(tooltipTriggerEl)
+ })
+  </script>
 
  </body>
 </html>
