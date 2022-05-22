@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- 国内 Staticfile CDN 上的 Bootstrap5 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+
+    <title>鹦鹉奴收容所</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- 国内 Staticfile CDN 上的 Bootstrap5 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+<!-- 导航栏  -->
+<nav class="navbar navbar-expand-lg bg-warning navbar-light fixed-top">
+     <div class="container-fluid">
+       <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           <li class="nav-item">
+             <a class="nav-link active" aria-current="page" href="#">首页</a>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               主子资料卡
+             </a>
+             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <li><a class="dropdown-item" href="#">玄凤鹦鹉</a></li>
+               <li><a class="dropdown-item" href="#">虎皮鹦鹉</a></li>
+               <li><a class="dropdown-item" href="#">牡丹鹦鹉</a></li>
+               <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="#">其它鹦鹉 | 国内不让养哦！</a></li>
+             </ul>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               铲屎官课堂
+             </a>
+             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <li><a class="dropdown-item" href="#">吃喝真的很重要</a></li>
+               <li><a class="dropdown-item" href="#">主子用啥玩啥</a></li>
+               <li><a class="dropdown-item" href="#">如何沐浴</a></li>
+               <li><a class="dropdown-item" href="#">生病了怎么办</a></li>
+               <li><a class="dropdown-item" href="#">怎么照顾幼年主子</a></li>
+               <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="#">进阶版：如何拥有手养主子</a></li>
+             </ul>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#">抱团取暖处</a>
+           </li>
+         </ul>
+         <form class="d-flex">
+           <input class="form-control me-2" type="search" placeholder="小鸟没有疑问，你呢" aria-label="Search">
+           <button class="btn btn-outline-light" type="submit">Search</button>
+         </form>
+       </div>
+     </div>
+   </nav>
+
+<!-- 轮播图  -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/parrot1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>当你凝视着小鸟，小鸟也在凝视着你</h5>
+        <p>喂，别再看了，快去准备好吃的！</p>
+        <button type="button" class="btn btn-outline-warning btn-lg">喂食快速教程</button>
+        <button type="button" class="btn btn-warning btn-lg">问问大家</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/parrot2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>今天晚上我是鸟神</h5>
+        <p>♪(´▽｀)但我想说，你~是~我的神！我的腮红为你而留！</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/parrot3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>显而易见，小鸟已经成双成对了</h5>
+        <p>你还在单身吗？</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<br>
+<hr class="my-4">
+
+<!--introduction-->
+<div class="container-fluid">
+  <div class ="row text-center">
+    <div class ="col=12">
+      <h1 class = "display-6">欢迎来到鹦鹉奴收容所！</h1>
+      <p class="lead">这里为鹦鹉饲养者提供养鸟指南及交流平台。希望你可以在鹦鹉奴收容所解决所有的养鸟难题，体会到养鹦鹉的乐趣。</p>
+    </div>
+  </div>
+</div>
+<br>
+
+<!--introduction card-->
+<div class="card  text-dark bg-light container-fluid">
+  <div class="row g-0">
+    <div class="col-md-4 text-center">
+      <img src="img/introduction1.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">#主子资料卡#</h5>
+        <p class="card-text">贴心的鹦鹉资料百科，助力你在顷刻间了解属于你的它。</p>
+        <p class="card-text"><small class="text-muted">鹦鹉有很多种，但在国内可以饲养的只有三种：虎皮鹦鹉、玄凤鹦鹉、牡丹鹦鹉。你是否想了解他们的喜好、习性、花色等共有的特征呢？“主子资料卡”里应有尽有。</small></p>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-outline-warning" type="button">点击进入</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="container-fluid">
+  <div class="row g-0">
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">#铲屎官课堂#</h5>
+        <p class="card-text">专业的鹦鹉饲养方法指南，哪里不会点哪里，小鸟再也不用担心你会养死它啦！</p>
+        <p class="card-text"><small class="text-muted">从前，你是一个人，忙碌的生活使你抛下了生活的精致，每天随便打发自己便进入梦乡。现在，你有了鹦鹉主子，身上的担子愈发沉重：它吃什么、喝什么、用什么、玩什么、生病了怎么办……
+          这些问题让你喘不过气。不过，有了“铲屎官课堂”，你再也不用担心自己养不好小鸟了！就让它替你分担这个甜蜜的负担吧~</small></p>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-outline-warning" type="button">点击进入</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 text-center">
+      <img src="img/introduction2.png" class="img-fluid rounded-start" alt="...">
+    </div>
+  </div>
+</div>
+<br>
+<div class="card  text-dark bg-light container-fluid">
+  <div class="row g-0">
+    <div class="col-md-4 text-center">
+      <img src="img/introduction3.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">♥抱团取暖处♥</h5>
+        <p class="card-text">无所不能的鹦鹉爱好者的交流平台，养鸟社交两不误。</p>
+        <p class="card-text"><small class="text-muted">在养小鸟的过程中，有时，我们会想分享养小鸟的趣事；有时，我们遇到了万能的百度解决不了的问题；有时，我们期待一场属于小鸟，或是属于自己的邂逅。很幸运，以上这些，在“抱团取暖处”
+          都能够实现。</small></p>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button type="button" class="btn btn-danger">点击进入</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<!--footer-->
+<footer>
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-md-6">
+        <img src="img/logo2.png">
+        <hr class="light">
+        <p>010-88888888</p>
+        <p>WeHaveNoEmail.email.com</p>
+        <p>北京市小鸟区小鸟街道8号楼808</p>
+      </div>
+      <div class="col-md-6">
+        <hr class="light">
+        <h5>这个地方</h5>
+        <hr class="light">
+        <p>我真的不知道写什么好了</p>
+        <p>那就来一个表情吧</p>
+        <p>( •̀ ω •́ )✧</p>
+      </div>
+      <div class="col-12">
+      <hr class="light">
+      <p>请让自己和小鸟快乐，我们永远陪着你</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<!--card group-->
+<!--<div class="card-group">
+  <div class="card">
+    <img src="img/card1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">虎皮鹦鹉</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>-->
+
+
+
+
+
+ </body>
+</html>
