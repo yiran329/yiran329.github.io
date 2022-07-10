@@ -120,7 +120,7 @@
 }
 
 /*---------------------------------
-    typography css start 
+    typography css start
 ---------------------------------*/
 body {
   font-family: var(--tp-ff-body);
@@ -308,7 +308,7 @@ input[type=color] {
 }
 
 /*---------------------------------
-    common classes css start 
+    common classes css start
 ---------------------------------*/
 img {
   max-width: 100%;
@@ -376,7 +376,7 @@ img {
 }
 
 /*----------------------------------------
-    Body Overlay 
+    Body Overlay
 -----------------------------------------*/
 .body-overlay {
   background-color: rgba(var(--tp-common-black), 0.5);
@@ -2371,7 +2371,7 @@ ul.bili_circle li::before {
 .slider-info-list ul li:nth-child(1) {
   right: 675px;
   top: 240px;
-  background-color: #9B51E0;
+  background-color: #124da7;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .slider-info-list ul li:nth-child(1) {
@@ -2391,7 +2391,7 @@ ul.bili_circle li::before {
 .slider-info-list ul li:nth-child(2) {
   bottom: 115px;
   right: 735px;
-  background-color: #FF6652;
+  background-color: #8d315c;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .slider-info-list ul li:nth-child(2) {
@@ -2408,7 +2408,7 @@ ul.bili_circle li::before {
 .slider-info-list ul li:nth-child(3) {
   bottom: 150px;
   right: 300px;
-  background-color: #F2C94C;
+  background-color: #c17456;
 }
 
 .slider-content .slider-text {
